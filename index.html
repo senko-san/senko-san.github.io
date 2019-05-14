@@ -8,6 +8,8 @@
             padding: 0;
             margin:0;
         }
+        #bg_container{ height:1080px; overflow:hidden; }
+        #bg{ width:100%; }
         h1
         {
             font-size: 5em;
@@ -28,12 +30,12 @@
 
     <h1>Anime</h1>
 
-    <div class="section">
-        <div class="video-container"></div>
-        <video autoplay loop>
-            <source src="bg.mp4" type="video/mp4">
-        </video>
+    <div id="bg_container">
+        <iframe id="bg" src="https://www.youtube.com/embed/hVMJxT3O9qA?list=PL4r8X3nFll5KyhIFMgt1WfTakKKF7sj88?autoplay=1&amp;controls=0&amp;loop=1&amp;modestbranding=1&amp;disablekb=1&amp;enablejsapi=1&amp;playlist=PL4r8X3nFll5KyhIFMgt1WfTakKKF7sj88" frameborder="0"></iframe>
+    </div>
 
+   
+ 
 </body>
 </html>
     
